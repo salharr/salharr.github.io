@@ -36,7 +36,7 @@ h2{
 }
 @media only screen and (max-width: 500px) {
     body {
-        background-color:black;
+        background-color:azure;
     }
     #Picture2{
         width: 350px;
