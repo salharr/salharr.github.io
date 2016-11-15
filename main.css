@@ -22,7 +22,8 @@ display:block;
 }
 
 p {
-    color:dodgerblue
+    color:dodgerblue;
+font-family: Noteworthy;
 }
 
 h2{
@@ -35,7 +36,7 @@ h2{
 }
 @media only screen and (max-width: 500px) {
     body {
-        background-color:azure;
+        background-color:black;
     }
     #Picture2{
         width: 350px;
@@ -48,9 +49,24 @@ h2{
  #Picture4{
         width: 300px;
         height: 300px;
+
     }
- #Picture{
-        width: 300px;
-        height: 300px;
+}
+@media only screen and (max-width: 250px) { 
+    #Picture{
+        width:150px;
+        height:150px;
     }
+#Picture2{
+        width: 150px;
+        height: 150px;
+    }
+ #Picture3{
+        width: 150px;
+        height: 150px;
+    }
+ #Picture4{
+        width: 150px;
+        height: 150px;
+
 }
